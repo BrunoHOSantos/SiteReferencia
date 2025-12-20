@@ -266,32 +266,32 @@ body {
   transition: all 0.4s ease;
 }
 
-#thePretender{
+#thepretender{
     position: fixed;
     width: 100px;
     margin-top: 2vh;
 }
 
-#bestOfYou{
+#bestofyou{
     position: fixed;
     width: 100px;
     margin-top: 10vh;
 }
 
-#learnToFly{
+#learntofly{
     position: fixed;
     width: 100px;
     margin-top: 18vh;
 }
 
 
-#timesLikeThese{
+#timeslikethese{
     position: fixed;
     width: 100px;
     margin-top: 26vh;
 }
 
-#myHero{
+#myhero{
     position: fixed;
     width: 100px;
     margin-top: 34vh;
@@ -303,30 +303,30 @@ body {
 
 
 @media (max-width: 768px) {
-    #thePretender{
+    #thepretender{
     width: 80px;
     font-size: 8pt;
     margin-top: 2vh;
     
    }   
-       #timesLikeThese{
+       #timeslikethese{
        width: 80px;
        margin-top: 8vh;
        font-size: 8pt;
     }
     
-    #learnToFly{
+    #learntofly{
         width: 80px;
         margin-top: 14vh;
         font-size: 8pt;
     }
     
-    #bestOfYou{
+    #bestofyou{
         width: 80px;
         margin-top: 20vh;
         font-size: 8pt;
     }
-    #myHero{
+    #myhero{
         width: 80px;
     margin-top: 26vh;
     font-size: 8pt;
@@ -340,30 +340,30 @@ body {
 }
 
 @media (max-width: 980px) {
-    #thePretender{
+    #thepretender{
     width: 80px;
     font-size: 8pt;
     margin-top: 2vh;
     
    }   
-       #timesLikeThese{
+       #timeslikethese{
        width: 80px;
        margin-top: 8vh;
        font-size: 8pt;
     }
     
-    #learnToFly{
+    #learntofly{
         width: 80px;
         margin-top: 14vh;
         font-size: 8pt;
     }
     
-    #bestOfYou{
+    #bestofyou{
         width: 80px;
         margin-top: 20vh;
         font-size: 8pt;
     }
-    #myHero{
+    #myhero{
         width: 80px;
     margin-top: 26vh;
     font-size: 8pt;
@@ -501,7 +501,7 @@ body {
     
 }
 
-#fundoCor{
+#fundocor{
     position: absolute;
     background-color: #2B3035;
     z-index: -10;
@@ -520,7 +520,7 @@ body {
     margin-top: 20vh;
  }
 
- #fundoCor{
+ #fundocor{
     position: absolute;
     background-color: #2B3035;
     z-index: -10;
@@ -541,7 +541,7 @@ body {
     box-shadow: 0px 5px 15px 5px gray;
 }
 
-#fundoCor2{
+#fundocor2{
     display: flex;
     margin-left: auto;
     background-color: #2B3035;
@@ -562,7 +562,7 @@ body {
     box-shadow: 0px 5px 15px 5px gray;
 }
 
-#fundoCor2{
+#fundocor2{
     display: flex;
     margin-left: auto;
     background-color: #2B3035;
