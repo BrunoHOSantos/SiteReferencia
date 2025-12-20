@@ -6,27 +6,27 @@ document.getElementById("toggleTheme").addEventListener('click', function() {
 });
 
 document.getElementById("thePretender").addEventListener("click", () => {
-    window.location.href = "../Paginas/ThePretender.html"
+    window.location.href = "./paginas/thePretender.html"
 })
 
 document.getElementById("bestOfYou").addEventListener("click", () => {
-    window.location.href = "../Paginas/BestOfYou.html"
+    window.location.href = "./paginas/bestOfYou.html"
 })
 
 document.getElementById("everlong").addEventListener("click", () => {
-    window.location.href = "../Paginas/Everlong.html"
+    window.location.href = "./paginas/everlong.html"
 })
 
 document.getElementById("learnToFly").addEventListener("click", () => {
-    window.location.href = "../Paginas/LearnToFly.html"
+    window.location.href = "./paginas/learnToFly.html"
 })
 
 document.getElementById("myHero").addEventListener("click", () => {
-    window.location.href = "../Paginas/MyHero.html"
+    window.location.href = "./paginas/myHero.html"
 })
 
 document.getElementById("timesLikeThese").addEventListener("click", () => {
-    window.location.href = "../Paginas/TimesLikeThese.html"
+    window.location.href = "./paginas/timesLikeThese.html"
 })
 
 document.getElementById("bruno").addEventListener("click", () => {
