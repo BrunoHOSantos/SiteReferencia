@@ -5,28 +5,28 @@ document.getElementById("toggleTheme").addEventListener('click', function() {
     document.documentElement.classList.toggle('dark')
 });
 
-document.getElementById("thePretender").addEventListener("click", () => {
-    window.location.href = "./paginas/thePretender.html"
+document.getElementById("thepretender").addEventListener("click", () => {
+    window.location.href = "./paginas/thepretender.html"
 })
 
-document.getElementById("bestOfYou").addEventListener("click", () => {
-    window.location.href = "./paginas/bestOfYou.html"
+document.getElementById("bestofyou").addEventListener("click", () => {
+    window.location.href = "./paginas/bestofyou.html"
 })
 
 document.getElementById("everlong").addEventListener("click", () => {
     window.location.href = "./paginas/everlong.html"
 })
 
-document.getElementById("learnToFly").addEventListener("click", () => {
-    window.location.href = "./paginas/learnToFly.html"
+document.getElementById("learntofly").addEventListener("click", () => {
+    window.location.href = "./paginas/learntofly.html"
 })
 
-document.getElementById("myHero").addEventListener("click", () => {
-    window.location.href = "./paginas/myHero.html"
+document.getElementById("myhero").addEventListener("click", () => {
+    window.location.href = "./paginas/myhero.html"
 })
 
-document.getElementById("timesLikeThese").addEventListener("click", () => {
-    window.location.href = "./paginas/timesLikeThese.html"
+document.getElementById("timeslikethese").addEventListener("click", () => {
+    window.location.href = "./paginas/timeslikethese.html"
 })
 
 document.getElementById("bruno").addEventListener("click", () => {
