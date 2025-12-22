@@ -423,11 +423,25 @@ body {
     margin-top: 88vh;
 }
 
+@media (max-width: 1024px) {
+    #bruno{
+    font-size: 9pt;
+    width: 58px;
+    position: fixed;
+    margin-top: 94vh;
+    display: flex;
+    justify-content: center; /* eixo horizontal */
+    align-items: center;     /* eixo vertical */
+    text-align: center;
+}
+
+}
+
 #comentarios{
     margin-top: 70vh;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1024px) {
     #comentarios{
     font-family: "SpaceGrotesk";
     margin-top: 40vh;
@@ -552,13 +566,13 @@ body {
     box-shadow: 5px 10px 15px 2px gray;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #fundo{   
     position: absolute;
     text-align: left;
-    margin-left: 22vw;
+    margin-left: 28vw;
     margin-right: 8vw;
-    margin-top: 20vh;
+    margin-top: 26vh;
  }
 
  #fundocor{
@@ -566,8 +580,8 @@ body {
     background-color: #2B3035;
     z-index: -10;
     margin-top: 190px;
-    width: 60vh;
-    height: 420px;
+    width: 50vh;
+    height: 820px;
  }
   
 }
@@ -592,13 +606,13 @@ body {
     
     box-shadow: 0px 5px 15px 5px gray;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #foto{
     display: flex;
     margin-left: auto;
-    margin-top: 20px;
-    width: 400px;
-    height: 400px;
+    margin-top: 24px;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 5px gray;
 }
@@ -607,9 +621,9 @@ body {
     display: flex;
     margin-left: auto;
     background-color: #2B3035;
-    margin-top: 650px;
-    width: 520px;
-    height: 450px;
+    margin-top: 1050px;
+    width: 420px;
+    height: 350px;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 5px gray;
 }
