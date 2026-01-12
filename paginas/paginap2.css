@@ -19,6 +19,7 @@ body {
     height: 580px;
 }
 
+
 @media (max-width: 768px) {
   #carouselExample{
     margin-top: 50px;
@@ -87,3 +88,22 @@ body {
   outline-offset: 4px;
 }
 
+
+@media (max-width: 768px) {
+  .carousel-item{
+    width: 300px;
+    height: 300px;
+  }
+
+  .insta-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-top: 10px;
+}
+
+#carouselExample{
+    width: 600px;
+    height: 280px;
+}
+}
