@@ -81,7 +81,7 @@ body {
 
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1024px) {
     .sidebar-esquerda {
     position: absolute;
     z-index: 1; 
@@ -95,14 +95,15 @@ body {
     overflow-y: auto;     
     }
 
-@media(max-width: 1666px) {
+
+@media(max-width: 1366px) {
     .sidebar-esquerda {
     position: absolute;
     z-index: 1; 
     top: 0;
     left: 0;              
     width: 60px;         
-    height: 740vh;        
+    height: 340vh;        
     margin-right: 22vw;
     background-color: #212529; 
     padding: 20px;
@@ -354,7 +355,69 @@ body {
     
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1024px) {
+    #thepretender{
+        width: 50px;
+        height: 50px;
+        margin-top: 2vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    
+   }   
+       #timeslikethese{
+        width: 50px;
+        margin-top: 9.5vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    
+    #learntofly{
+        width: 50px;
+        margin-top: 18vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    
+    #bestofyou{
+        width: 50px;
+        margin-top: 25vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    #myhero{
+        width: 50px;
+        margin-top: 34vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    #everlong{
+        width: 50px;
+        margin-top: 40.5vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1366px) {
     #thepretender{
         width: 50px;
         height: 50px;
@@ -428,7 +491,7 @@ body {
     font-size: 9pt;
     width: 58px;
     position: fixed;
-    margin-top: 94vh;
+    margin-top: 86vh;
     display: flex;
     justify-content: center; /* eixo horizontal */
     align-items: center;     /* eixo vertical */
@@ -573,6 +636,18 @@ body {
     margin-left: 28vw;
     margin-right: 8vw;
     margin-top: 26vh;
+ }
+}
+
+ @media (max-width: 1366px) {
+    #fundo{   
+    position: absolute;
+    text-align: left;
+    font-size: 18pt;
+    margin-left: 12vw;
+    margin-right: 35vw;
+    margin-top: 16vh;
+    
  }
 
  #fundocor{
