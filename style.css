@@ -116,18 +116,7 @@ body {
 @media(max-width: 1366px) {
     
  @media (orientation: portrait) {
-  .sidebar-esquerda {
-    position: absolute;
-    z-index: 1; 
-    top: 0;
-    left: 0;              
-    width: 60px;         
-    height: 540vh;        
-    margin-right: 22vw;
-    background-color: #212529; 
-    padding: 20px;
-    overflow-y: auto;     
-        }
+  
     }
  @media (orientation: landscape) {
   .sidebar-esquerda {
@@ -520,16 +509,7 @@ body {
 }
 
 @media (max-width: 1024px) {
-    #bruno{
-    font-size: 9pt;
-    width: 58px;
-    position: fixed;
-    margin-top: 86vh;
-    display: flex;
-    justify-content: center; /* eixo horizontal */
-    align-items: center;     /* eixo vertical */
-    text-align: center;
-}
+    
 
 }
 
@@ -642,6 +622,15 @@ body {
   }
 }
 
+
+
+
+
+
+
+
+
+
 #fundo{
     color: white;
     position: absolute;
@@ -662,63 +651,6 @@ body {
     box-shadow: 5px 10px 15px 2px gray;
 }
 
-@media (max-width: 1024px) {
-    #fundo{   
-    position: absolute;
-    text-align: left;
-    margin-left: 28vw;
-    margin-right: 8vw;
-    margin-top: 26vh;
- }
-}
-
- @media (max-width: 1366px) {
-    #fundo{   
-    position: absolute;
-    text-align: left;
-    font-size: 18pt;
-    margin-left: 12vw;
-    margin-right: 35vw;
-    margin-top: 16vh;  
- }
-
-@media (orientation: landscape) {
-  #fundo{   
-    position: absolute;
-    text-align: left;
-    font-size: 18pt;
-    margin-left: 12vw;
-    margin-right: 35vw;
-    margin-top: 25vh;  
- }
-}
-
-@media (orientation: portrait) {
-  #fundocor{
-    position: absolute;
-    background-color: #2B3035;
-    z-index: -10;
-    margin-top: 190px;
-    width: 50vh;
-    height: 820px;
- }
-}
-
- @media (orientation: landscape) {
-  #fundocor{
-    position: absolute;
-    background-color: #2B3035;
-    z-index: -10;
-    margin-top: 190px;
-    width: 90vh;
-    height: 700px;
- }
-}
-
- 
-  
-}
-
 #foto{
     display: flex;
     margin-left: auto;
@@ -736,11 +668,39 @@ body {
     margin-top: 190px;
     width: 420px;
     height: 440px;
-    
     box-shadow: 0px 5px 15px 5px gray;
 }
-@media (max-width: 1024px) {
-    #foto{
+
+
+
+
+
+
+
+
+
+ @media (max-width: 768px){
+/* -------------------Portrait---------------------- */  
+    @media (orientation: portrait) {
+        #fundo{   
+       position: absolute;
+       text-align: left;
+       font-size: 14pt;
+       margin-left: 15vw;
+       margin-right: 55vw;
+       margin-top: 18vh;  
+     }
+     
+  #fundocor{
+    position: absolute;
+    background-color: #2B3035;
+    z-index: -10;
+    margin-top: 190px;
+    width: 36vh;
+    height: 88vh;
+    }
+
+ #foto{
     display: flex;
     margin-left: auto;
     margin-top: 24px;
@@ -748,22 +708,66 @@ body {
     height: 300px;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 5px gray;
-}
+    }
 
 #fundocor2{
     display: flex;
     margin-left: auto;
     background-color: #2B3035;
-    margin-top: 1050px;
-    width: 420px;
-    height: 350px;
+    margin-top: 880px;
+    width: 350px;
+    height: 30vh;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 5px gray;
-}
- }
+        }
 
-@media (max-width: 1366px) {
-    #foto{
+.sidebar-esquerda {
+    position: absolute;
+    z-index: 1; 
+    top: 0;
+    left: 0;              
+    width: 60px;         
+    height: 425vh;        
+    margin-right: 22vw;
+    background-color: #212529; 
+    padding: 20px;
+    overflow-y: auto;     
+        }
+
+#bruno{
+    font-size: 9pt;
+    width: 58px;
+    position: fixed;
+    margin-top: 86vh;
+    display: flex;
+    justify-content: center; /* eixo horizontal */
+    align-items: center;     /* eixo vertical */
+    text-align: center;
+        }
+}
+
+
+/* -------------------LandScape---------------------- */
+@media (orientation: landscape) {
+     #fundo{   
+       position: absolute;
+       text-align: left;
+       font-size: 10pt;
+       margin-left: 18vw;
+       margin-right: 35vw;
+       margin-top: 25vh;  
+     }
+     
+  #fundocor{
+    position: absolute;
+    background-color: #2B3035;
+    z-index: -10;
+    margin-top: 190px;
+    width: 90vh;
+    height: 700px;
+    }
+
+ #foto{
     display: flex;
     margin-left: auto;
     margin-top: 24px;
@@ -771,7 +775,7 @@ body {
     height: 300px;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 5px gray;
-}
+    }
 
 #fundocor2{
     display: flex;
@@ -782,34 +786,136 @@ body {
     height: 350px;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 5px gray;
+        }
+
+.sidebar-esquerda {
+    position: absolute;
+    z-index: 1; 
+    top: 0;
+    left: 0;              
+    width: 60px;         
+    height: 455vh;        
+    margin-right: 22vw;
+    background-color: #212529; 
+    padding: 20px;
+    overflow-y: auto;     
+        }
+
+#bruno{
+    font-size: 9pt;
+    width: 58px;
+    position: fixed;
+    margin-top: 86vh;
+    display: flex;
+    justify-content: center; /* eixo horizontal */
+    align-items: center;     /* eixo vertical */
+    text-align: center;
+        }
+    }
 }
+
 /* -------------------------------------------- */
 
+
+
+
+
+
+
+@media (max-width: 480px) {
+    
+/* -------------------Portrait------------------ */
+    
 @media (orientation: portrait) {
-  #fundocor2{
-    display: flex;
-    margin-left: auto;
-    background-color: #2B3035;
-    margin-top: 660px;
-    width: 350px;
-    height: 350px;
-    border-radius: 20px;
-    box-shadow: 0px 5px 15px 5px gray;
+    #fundo{   
+    position: absolute;
+    text-align: left;
+    margin-left: 15vw;
+    margin-right: 20vw;
+    margin-top: 24vh;
+    }
+    #fundocor{
+        position: absolute;
+        background-color: #2B3035;
+        z-index: -10;
+        margin-top: 190px;
+        width: 65vh;
+        height: 90vh;
+    }        
+    #fundocor2{
+        display: flex;
+        margin-left: auto;
+        background-color: #2B3035;
+        margin-top: 1060px;
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px 5px gray;
+    }
+        #bruno{
+        font-size: 9pt;
+        width: 58px;
+        position: fixed;
+        margin-top: 86vh;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
 }
+/* -----------------LandScape-------------- */
+@media (orientation: landscape) {
+
+    #fundo{   
+    position: absolute;
+    text-align: left;
+    margin-left: 12vw;
+    margin-right: 35vw;
+    margin-top: 28vh;
+    }
+    #fundocor{
+        position: absolute;
+        background-color: #2B3035;
+        z-index: -10;
+        margin-top: 190px;
+        width: 90vh;
+        height: 320px;
+    }
+    #fundocor2{
+        display: flex;
+        margin-left: auto;
+        background-color: #2B3035;
+        margin-top: 180px;
+        width: 320px;
+        height: 340px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px 5px gray;
+    }
+    #foto{
+        display: flex;
+        margin-left: auto;
+        margin-top: 24px;
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px 5px gray;
+        }
+
+    #bruno{
+    font-size: 9pt;
+    width: 58px;
+    position: fixed;
+    margin-top: 86vh;
+    display: flex;
+    justify-content: center; /* eixo horizontal */
+    align-items: center;     /* eixo vertical */
+    text-align: center;
+        }
+    }
 }
 
- @media (orientation: landscape) {
-  #fundocor{
-    position: absolute;
-    background-color: #2B3035;
-    z-index: -10;
-    margin-top: 190px;
-    width: 90vh;
-    height: 700px;
- }
-}
 /* ------------------------------------------------- */
- }
+
 
 .fade-scroll {
   opacity: 0;
