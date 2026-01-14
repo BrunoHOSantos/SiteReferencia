@@ -80,61 +80,6 @@ body {
 
 }
 
-
-@media(max-width: 938px) {
-    
- @media (orientation: portrait) {
-  .sidebar-esquerda {
-    position: absolute;
-    z-index: 1; 
-    top: 0;
-    left: 0;              
-    width: 60px;         
-    height: 540vh;        
-    margin-right: 22vw;
-    background-color: #212529; 
-    padding: 20px;
-    overflow-y: auto;     
-        }
-    }
- @media (orientation: landscape) {
-  .sidebar-esquerda {
-    position: absolute;
-    z-index: 1; 
-    top: 0;
-    left: 0;              
-    width: 60px;         
-    height: 280vh;        
-    margin-right: 22vw;
-    background-color: #212529; 
-    padding: 20px;
-    overflow-y: auto;     
-        }
-    }
-}
-
-@media(max-width: 1366px) {
-    
- @media (orientation: portrait) {
-  
-    }
- @media (orientation: landscape) {
-  .sidebar-esquerda {
-    position: absolute;
-    z-index: 1; 
-    top: 0;
-    left: 0;              
-    width: 60px;         
-    height: 280vh;        
-    margin-right: 22vw;
-    background-color: #212529; 
-    padding: 20px;
-    overflow-y: auto;     
-        }
-    }
-}
-
-
 .video-container {
     position: absolute;
     width: 50vw;
@@ -271,21 +216,6 @@ body {
     }
 }
 
-@media (max-width: 768px) {
-    #explicacao{        
-    font-size: 4vmin;
-    position: relative;
-    max-width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    top: 30vh;
-    margin-top: 10rem;
-    margin-left: 18vw; 
-    margin-right: 5vw;
-    margin-bottom: 30vh;
-    text-align: center;   
-    }
-}
 
 #toggleTheme{
     margin-top: 80vh;
@@ -340,42 +270,6 @@ body {
 }
 
 
-@media (max-width: 768px) {
-    #thepretender{
-    width: 80px;
-    font-size: 8pt;
-    margin-top: 2vh;
-    
-   }   
-       #timeslikethese{
-       width: 80px;
-       margin-top: 8vh;
-       font-size: 8pt;
-    }
-    
-    #learntofly{
-        width: 80px;
-        margin-top: 14vh;
-        font-size: 8pt;
-    }
-    
-    #bestofyou{
-        width: 80px;
-        margin-top: 20vh;
-        font-size: 8pt;
-    }
-    #myhero{
-        width: 80px;
-    margin-top: 26vh;
-    font-size: 8pt;
-    }
-    #everlong{
-    margin-top: 30.5vh;
-    font-size: 8pt;
-    }
-
-    
-}
 
 @media (max-width: 1024px) {
     #thepretender{
@@ -508,22 +402,10 @@ body {
     margin-top: 88vh;
 }
 
-@media (max-width: 1024px) {
-    
-
-}
-
 #comentarios{
     margin-top: 70vh;
 }
 
-@media (max-width: 1024px) {
-    #comentarios{
-    font-family: "SpaceGrotesk";
-    margin-top: 40vh;
-    margin-left: 20vw;
- }
-}
 
 @media (min-width: 1366px) and (max-width: 1920px) {
     #comentarios{
@@ -577,31 +459,12 @@ body {
   overflow: hidden;
 }
 
-@media (max-width: 980px) {
-    .typewriter {
-  font-family: "SpaceGrotesk";
-  font-size: clamp(3.8rem, 8vw, 8rem);;
-  margin-top: 35vh;
-  margin-left: 20vw; 
-  white-space: nowrap;
-  overflow: hidden;
-}
-}
 
 #type-loop {
     margin-top: 20vh;
     margin-left: 15vw;
     font-size: 20pt;
     white-space: normal;
-}
-@media (max-width: 768px) {
-    #type-loop {
-  margin-top: 20vh;
-  margin-left: 20vw;
-  font-size: 20pt;
-  white-space: normal;
-}
-
 }
 
 #type-loop::after {
@@ -621,9 +484,6 @@ body {
     visibility: hidden;
   }
 }
-
-
-
 
 
 
@@ -744,6 +604,76 @@ body {
     align-items: center;     /* eixo vertical */
     text-align: center;
         }
+
+#type-loop {
+  margin-top: 20vh;
+  margin-left: 20vw;
+  font-size: 20pt;
+  white-space: normal;
+}
+
+.typewriter {
+  font-family: "SpaceGrotesk";
+  font-size: clamp(3.8rem, 8vw, 8rem);;
+  margin-top: 35vh;
+  margin-left: 20vw; 
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#comentarios{
+    font-family: "SpaceGrotesk";
+    margin-top: 40vh;
+    margin-left: 20vw;
+ }
+
+ #thepretender{
+    width: 80px;
+    font-size: 8pt;
+    margin-top: 2vh;
+    
+   }   
+       #timeslikethese{
+       width: 80px;
+       margin-top: 8vh;
+       font-size: 8pt;
+    }
+    
+    #learntofly{
+        width: 80px;
+        margin-top: 14vh;
+        font-size: 8pt;
+    }
+    
+    #bestofyou{
+        width: 80px;
+        margin-top: 20vh;
+        font-size: 8pt;
+    }
+    #myhero{
+        width: 80px;
+    margin-top: 26vh;
+    font-size: 8pt;
+    }
+    #everlong{
+    margin-top: 30.5vh;
+    font-size: 8pt;
+    }
+
+#explicacao{        
+    font-size: 4vmin;
+    position: relative;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    top: 30vh;
+    margin-top: 10rem;
+    margin-left: 18vw; 
+    margin-right: 5vw;
+    margin-bottom: 30vh;
+    text-align: center;   
+    }
+
 }
 
 
@@ -794,7 +724,7 @@ body {
     top: 0;
     left: 0;              
     width: 60px;         
-    height: 455vh;        
+    height: 555vh;        
     margin-right: 22vw;
     background-color: #212529; 
     padding: 20px;
@@ -811,6 +741,76 @@ body {
     align-items: center;     /* eixo vertical */
     text-align: center;
         }
+
+#type-loop {
+  margin-top: 20vh;
+  margin-left: 20vw;
+  font-size: 20pt;
+  white-space: normal;
+        }
+
+.typewriter {
+  font-family: "SpaceGrotesk";
+  font-size: clamp(3.8rem, 8vw, 8rem);;
+  margin-top: 35vh;
+  margin-left: 20vw; 
+  white-space: nowrap;
+  overflow: hidden;
+        }
+
+#comentarios{
+    font-family: "SpaceGrotesk";
+    margin-top: 40vh;
+    margin-left: 20vw;
+ }
+
+#thepretender{
+    width: 80px;
+    font-size: 8pt;
+    margin-top: 2vh;
+    
+   }   
+       #timeslikethese{
+       width: 80px;
+       margin-top: 8vh;
+       font-size: 8pt;
+    }
+    
+    #learntofly{
+        width: 80px;
+        margin-top: 14vh;
+        font-size: 8pt;
+    }
+    
+    #bestofyou{
+        width: 80px;
+        margin-top: 20vh;
+        font-size: 8pt;
+    }
+    #myhero{
+        width: 80px;
+    margin-top: 26vh;
+    font-size: 8pt;
+    }
+    #everlong{
+    margin-top: 30.5vh;
+    font-size: 8pt;
+    }
+
+#explicacao{        
+    font-size: 4vmin;
+    position: relative;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    top: 30vh;
+    margin-top: 10rem;
+    margin-left: 18vw; 
+    margin-right: 5vw;
+    margin-bottom: 30vh;
+    text-align: center;   
+    }
+
     }
 }
 
@@ -862,6 +862,20 @@ body {
         align-items: center;     /* eixo vertical */
         text-align: center;
     }
+
+    .sidebar-esquerda {
+    position: absolute;
+    z-index: 1; 
+    top: 0;
+    left: 0;              
+    width: 60px;         
+    height: 455vh;        
+    margin-right: 22vw;
+    background-color: #212529; 
+    padding: 20px;
+    overflow-y: auto;     
+        }
+
 }
 /* -----------------LandScape-------------- */
 @media (orientation: landscape) {
@@ -911,6 +925,20 @@ body {
     align-items: center;     /* eixo vertical */
     text-align: center;
         }
+
+    .sidebar-esquerda {
+    position: absolute;
+    z-index: 1; 
+    top: 0;
+    left: 0;              
+    width: 60px;         
+    height: 455vh;        
+    margin-right: 22vw;
+    background-color: #212529; 
+    padding: 20px;
+    overflow-y: auto;     
+        }
+
     }
 }
 
