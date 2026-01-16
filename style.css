@@ -64,21 +64,6 @@ body {
     
 }
 
-@media (max-width: 1024px) {
-    .sidebar-esquerda {
-    position: absolute;
-    z-index: 1; 
-    top: 0;
-    left: 0;              
-    width: 90px;         
-    height: 540vh;        
-    margin-right: 22vw;
-    background-color: #212529; 
-    padding: 20px;
-    overflow-y: auto;     
-    }
-
-}
 
 .video-container {
     position: absolute;
@@ -88,35 +73,7 @@ body {
     margin: 0 0 2rem 0;
     
 }
-@media (max-width: 480px) {
-    .video-container {
-    width: 70vw;
-    position: absolute;
-    top: 20vh;
-    right: 7vw; 
-    margin: 0 0 2rem 0;
-    }
-}
 
-@media (max-width: 768px) {
-    .video-container {
-    width: 70vw;
-    position: absolute;
-    top: 20vh;
-    right: 7vw; 
-    margin: 0 0 2rem 0;
-    }
-}
-
-@media (max-width: 1024px) { 
-    .video-container {
-    width: 70vw;
-    position: absolute;
-    top: 20vh;
-    right: 7vw; 
-    margin: 0 0 2rem 0;
-    }
- }
 
  @media (min-width: 1024px) and (max-width: 1366px) { 
     .video-container {
@@ -200,22 +157,6 @@ body {
     
 }
 
-@media (max-width: 1024px) {
-    #explicacao{        
-    font-size: 3vmin;
-    position: relative;
-    max-width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    top: 40vh;
-    margin-top: 10rem;
-    margin-left: 18vw; 
-    margin-right: 5vw;
-    margin-bottom: 50vh;
-    text-align: center;   
-    }
-}
-
 
 #toggleTheme{
     margin-top: 80vh;
@@ -269,69 +210,6 @@ body {
     margin-top: 39.5vh;
 }
 
-
-
-@media (max-width: 1024px) {
-    #thepretender{
-        width: 50px;
-        height: 50px;
-        margin-top: 2vh;
-        font-size: 7pt;
-        display: flex;
-        justify-content: center; /* eixo horizontal */
-        align-items: center;     /* eixo vertical */
-        text-align: center;
-    
-   }   
-       #timeslikethese{
-        width: 50px;
-        margin-top: 9.5vh;
-        font-size: 7pt;
-        display: flex;
-        justify-content: center; /* eixo horizontal */
-        align-items: center;     /* eixo vertical */
-        text-align: center;
-    }
-    
-    #learntofly{
-        width: 50px;
-        margin-top: 18vh;
-        font-size: 7pt;
-        display: flex;
-        justify-content: center; /* eixo horizontal */
-        align-items: center;     /* eixo vertical */
-        text-align: center;
-    }
-    
-    #bestofyou{
-        width: 50px;
-        margin-top: 25vh;
-        font-size: 7pt;
-        display: flex;
-        justify-content: center; /* eixo horizontal */
-        align-items: center;     /* eixo vertical */
-        text-align: center;
-    }
-    #myhero{
-        width: 50px;
-        margin-top: 34vh;
-        font-size: 7pt;
-        display: flex;
-        justify-content: center; /* eixo horizontal */
-        align-items: center;     /* eixo vertical */
-        text-align: center;
-    }
-    #everlong{
-        width: 50px;
-        margin-top: 40.5vh;
-        font-size: 7pt;
-        display: flex;
-        justify-content: center; /* eixo horizontal */
-        align-items: center;     /* eixo vertical */
-        text-align: center;
-    }
-
-}
 
 @media (max-width: 1366px) {
     #thepretender{
@@ -487,10 +365,6 @@ body {
 
 
 
-
-
-
-
 #fundo{
     color: white;
     position: absolute;
@@ -535,20 +409,111 @@ body {
 
 
 
-
-
-
-
- @media (max-width: 768px){
-/* -------------------Portrait---------------------- */  
+/* Notebook */
+@media (max-width: 1024px) {
+/* -------------------Portrait---------------------- */
     @media (orientation: portrait) {
-        #fundo{   
+.sidebar-esquerda {
+    position: absolute;
+    z-index: 1; 
+    top: 0;
+    left: 0;              
+    width: 90px;         
+    height: 540vh;        
+    margin-right: 22vw;
+    background-color: #212529; 
+    padding: 20px;
+    overflow-y: auto;     
+    }
+
+.video-container {
+    width: 70vw;
+    position: absolute;
+    top: 20vh;
+    right: 7vw; 
+    margin: 0 0 2rem 0;
+    }
+
+#explicacao{        
+    font-size: 3vmin;
+    position: relative;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    top: 40vh;
+    margin-top: 10rem;
+    margin-left: 18vw; 
+    margin-right: 5vw;
+    margin-bottom: 50vh;
+    text-align: center;   
+    }
+
+#thepretender{
+        width: 50px;
+        height: 50px;
+        margin-top: 2vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    
+   }   
+       #timeslikethese{
+        width: 50px;
+        margin-top: 9.5vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    
+    #learntofly{
+        width: 50px;
+        margin-top: 18vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    
+    #bestofyou{
+        width: 50px;
+        margin-top: 25vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    #myhero{
+        width: 50px;
+        margin-top: 34vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    #everlong{
+        width: 50px;
+        margin-top: 40.5vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+
+#fundo{   
        position: absolute;
        text-align: left;
        font-size: 14pt;
        margin-left: 15vw;
        margin-right: 55vw;
-       margin-top: 18vh;  
+       margin-top: 22vh;  
      }
      
   #fundocor{
@@ -557,7 +522,7 @@ body {
     z-index: -10;
     margin-top: 190px;
     width: 36vh;
-    height: 88vh;
+    height: 112vh;
     }
 
  #foto{
@@ -576,7 +541,239 @@ body {
     background-color: #2B3035;
     margin-top: 880px;
     width: 350px;
-    height: 30vh;
+    height: 35vh;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px 5px gray;
+        }
+
+.sidebar-esquerda {
+    position: absolute;
+    z-index: 1; 
+    top: 0;
+    left: 0;              
+    width: 60px;         
+    height: 425vh;        
+    margin-right: 22vw;
+    background-color: #212529; 
+    padding: 20px;
+    overflow-y: auto;     
+        }
+
+#bruno{
+    font-size: 9pt;
+    width: 58px;
+    position: fixed;
+    margin-top: 86vh;
+    display: flex;
+    justify-content: center; /* eixo horizontal */
+    align-items: center;     /* eixo vertical */
+    text-align: center;
+        }
+
+    }
+/* -------------------LandScape---------------------- */
+    @media (orientation: landscape) {
+.sidebar-esquerda {
+    position: absolute;
+    z-index: 1; 
+    top: 0;
+    left: 0;              
+    width: 90px;         
+    height: 540vh;        
+    margin-right: 22vw;
+    background-color: #212529; 
+    padding: 20px;
+    overflow-y: auto;     
+    }
+
+.video-container {
+    width: 70vw;
+    position: absolute;
+    top: 20vh;
+    right: 7vw; 
+    margin: 0 0 2rem 0;
+    }
+
+#explicacao{        
+    font-size: 3vmin;
+    position: relative;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    top: 40vh;
+    margin-top: 10rem;
+    margin-left: 18vw; 
+    margin-right: 5vw;
+    margin-bottom: 50vh;
+    text-align: center;   
+    }
+
+#thepretender{
+        width: 50px;
+        height: 50px;
+        margin-top: 2vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    
+   }   
+       #timeslikethese{
+        width: 50px;
+        margin-top: 9.5vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    
+    #learntofly{
+        width: 50px;
+        margin-top: 18vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    
+    #bestofyou{
+        width: 50px;
+        margin-top: 25vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    #myhero{
+        width: 50px;
+        margin-top: 34vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+    #everlong{
+        width: 50px;
+        margin-top: 40.5vh;
+        font-size: 7pt;
+        display: flex;
+        justify-content: center; /* eixo horizontal */
+        align-items: center;     /* eixo vertical */
+        text-align: center;
+    }
+
+    }
+
+#fundo{   
+       position: absolute;
+       text-align: left;
+       font-size: 14pt;
+       margin-left: 15vw;
+       margin-right: 55vw;
+       margin-top: 22vh;  
+     }
+     
+  #fundocor{
+    position: absolute;
+    background-color: #2B3035;
+    z-index: -10;
+    margin-top: 190px;
+    width: 36vh;
+    height: 112vh;
+    }
+
+ #foto{
+    display: flex;
+    margin-left: auto;
+    margin-top: 24px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px 5px gray;
+    }
+
+#fundocor2{
+    display: flex;
+    margin-left: auto;
+    background-color: #2B3035;
+    margin-top: 880px;
+    width: 350px;
+    height: 35vh;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px 5px gray;
+        }
+
+.sidebar-esquerda {
+    position: absolute;
+    z-index: 1; 
+    top: 0;
+    left: 0;              
+    width: 60px;         
+    height: 425vh;        
+    margin-right: 22vw;
+    background-color: #212529; 
+    padding: 20px;
+    overflow-y: auto;     
+        }
+
+#bruno{
+    font-size: 9pt;
+    width: 58px;
+    position: fixed;
+    margin-top: 86vh;
+    display: flex;
+    justify-content: center; /* eixo horizontal */
+    align-items: center;     /* eixo vertical */
+    text-align: center;
+        }
+
+ }
+
+
+
+ @media (max-width: 768px){
+/* -------------------Portrait---------------------- */  
+    @media (orientation: portrait) {
+        #fundo{   
+       position: absolute;
+       text-align: left;
+       font-size: 14pt;
+       margin-left: 15vw;
+       margin-right: 55vw;
+       margin-top: 22vh;  
+     }
+     
+  #fundocor{
+    position: absolute;
+    background-color: #2B3035;
+    z-index: -10;
+    margin-top: 190px;
+    width: 36vh;
+    height: 112vh;
+    }
+
+ #foto{
+    display: flex;
+    margin-left: auto;
+    margin-top: 24px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px 5px gray;
+    }
+
+#fundocor2{
+    display: flex;
+    margin-left: auto;
+    background-color: #2B3035;
+    margin-top: 880px;
+    width: 350px;
+    height: 35vh;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 5px gray;
         }
@@ -628,30 +825,30 @@ body {
  }
 
  #thepretender{
-    width: 80px;
+    width: 60px;
     font-size: 8pt;
     margin-top: 2vh;
     
    }   
        #timeslikethese{
-       width: 80px;
+       width: 60px;
        margin-top: 8vh;
        font-size: 8pt;
     }
     
     #learntofly{
-        width: 80px;
+        width: 60px;
         margin-top: 14vh;
         font-size: 8pt;
     }
     
     #bestofyou{
-        width: 80px;
+        width: 60px;
         margin-top: 20vh;
         font-size: 8pt;
     }
     #myhero{
-        width: 80px;
+        width: 60px;
     margin-top: 26vh;
     font-size: 8pt;
     }
@@ -674,6 +871,14 @@ body {
     text-align: center;   
     }
 
+.video-container {
+    width: 70vw;
+    position: absolute;
+    top: 20vh;
+    right: 7vw; 
+    margin: 0 0 2rem 0;
+    }
+
 }
 
 
@@ -684,8 +889,8 @@ body {
        text-align: left;
        font-size: 10pt;
        margin-left: 18vw;
-       margin-right: 35vw;
-       margin-top: 25vh;  
+       margin-right: 50vw;
+       margin-top: 60vh;  
      }
      
   #fundocor{
@@ -693,16 +898,16 @@ body {
     background-color: #2B3035;
     z-index: -10;
     margin-top: 190px;
-    width: 90vh;
-    height: 700px;
+    width: 100vh;
+    height: 650px;
     }
 
  #foto{
     display: flex;
     margin-left: auto;
     margin-top: 24px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 5px gray;
     }
@@ -712,8 +917,8 @@ body {
     margin-left: auto;
     background-color: #2B3035;
     margin-top: 500px;
-    width: 350px;
-    height: 350px;
+    width: 220px;
+    height: 240px;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 5px gray;
         }
@@ -724,7 +929,7 @@ body {
     top: 0;
     left: 0;              
     width: 60px;         
-    height: 555vh;        
+    height: 1175vh;        
     margin-right: 22vw;
     background-color: #212529; 
     padding: 20px;
@@ -765,35 +970,35 @@ body {
  }
 
 #thepretender{
-    width: 80px;
+    width: 60px;
     font-size: 8pt;
-    margin-top: 2vh;
+    margin-top: 5vh;
     
    }   
        #timeslikethese{
-       width: 80px;
-       margin-top: 8vh;
+       width: 60px;
+       margin-top: 18vh;
        font-size: 8pt;
     }
     
     #learntofly{
-        width: 80px;
-        margin-top: 14vh;
+        width: 60px;
+        margin-top: 34vh;
         font-size: 8pt;
     }
     
     #bestofyou{
-        width: 80px;
-        margin-top: 20vh;
+        width: 60px;
+        margin-top: 46vh;
         font-size: 8pt;
     }
     #myhero{
-        width: 80px;
-    margin-top: 26vh;
+        width: 60px;
+    margin-top: 58vh;
     font-size: 8pt;
     }
     #everlong{
-    margin-top: 30.5vh;
+    margin-top: 70.5vh;
     font-size: 8pt;
     }
 
@@ -812,6 +1017,15 @@ body {
     }
 
     }
+
+.video-container {
+    width: 70vw;
+    position: absolute;
+    top: 20vh;
+    right: 7vw; 
+    margin: 0 0 2rem 0;
+    }
+
 }
 
 /* -------------------------------------------- */
@@ -830,23 +1044,23 @@ body {
     #fundo{   
     position: absolute;
     text-align: left;
-    margin-left: 15vw;
+    margin-left: 29vw;
     margin-right: 20vw;
-    margin-top: 24vh;
+    margin-top: 28vh;
     }
     #fundocor{
         position: absolute;
         background-color: #2B3035;
         z-index: -10;
         margin-top: 190px;
-        width: 65vh;
-        height: 90vh;
+        width: 49vh;
+        height: 210vh;
     }        
     #fundocor2{
         display: flex;
         margin-left: auto;
         background-color: #2B3035;
-        margin-top: 1060px;
+        margin-top: 1600px;
         width: 350px;
         height: 350px;
         border-radius: 20px;
@@ -869,12 +1083,53 @@ body {
     top: 0;
     left: 0;              
     width: 60px;         
-    height: 455vh;        
+    height: 698vh;        
     margin-right: 22vw;
     background-color: #212529; 
     padding: 20px;
     overflow-y: auto;     
         }
+
+#thepretender{
+    width: 60px;
+    font-size: 8pt;
+    margin-top: 4vh;
+    
+   }   
+       #timeslikethese{
+       width: 60px;
+       margin-top: 12vh;
+       font-size: 8pt;
+    }
+    
+    #learntofly{
+        width: 60px;
+        margin-top: 22vh;
+        font-size: 8pt;
+    }
+    
+    #bestofyou{
+        width: 60px;
+        margin-top: 28vh;
+        font-size: 8pt;
+    }
+    #myhero{
+        width: 60px;
+    margin-top: 35vh;
+    font-size: 8pt;
+    }
+    #everlong{
+    margin-top: 42.5vh;
+    font-size: 8pt;
+    }
+
+ .video-container {
+    width: 70vw;
+    position: absolute;
+    top: 20vh;
+    right: 7vw; 
+    margin: 0 0 2rem 0;
+    }
 
 }
 /* -----------------LandScape-------------- */
@@ -932,15 +1187,58 @@ body {
     top: 0;
     left: 0;              
     width: 60px;         
-    height: 455vh;        
+    height: 855vh;        
     margin-right: 22vw;
     background-color: #212529; 
     padding: 20px;
     overflow-y: auto;     
         }
 
+#thepretender{
+    width: 60px;
+    font-size: 8pt;
+    margin-top: 4vh;
+    
+   }   
+       #timeslikethese{
+       width: 30px;
+       margin-top: 12vh;
+       font-size: 8pt;
     }
+    
+    #learntofly{
+        width: 60px;
+        margin-top: 22vh;
+        font-size: 8pt;
+    }
+    
+    #bestofyou{
+        width: 60px;
+        margin-top: 28vh;
+        font-size: 8pt;
+    }
+    #myhero{
+        width: 60px;
+    margin-top: 35vh;
+    font-size: 8pt;
+    }
+    #everlong{
+    margin-top: 42.5vh;
+    font-size: 8pt;
+    }
+
+ .video-container {
+    width: 70vw;
+    position: absolute;
+    top: 20vh;
+    right: 7vw; 
+    margin: 0 0 2rem 0;
+    }
+
+    }
+
 }
+
 
 /* ------------------------------------------------- */
 
