@@ -5,29 +5,30 @@ document.getElementById("toggleTheme").addEventListener('click', function() {
     document.documentElement.classList.toggle('dark')
 });
 
-document.getElementById("thepretender").addEventListener("click", () => {
-    window.location.href = "/SiteReferencia/paginas/thepretender.html"
-})
+document.getElementById("thepretender")?.addEventListener("click", () => {
+  window.location.href = "/SiteReferencia/paginas/thepretender.html";
+});
 
-document.getElementById("bestofyou").addEventListener("click", () => {
-    window.location.href = "/SiteReferencia/paginas/bestofyou.html"
-})
+document.getElementById("bestofyou")?.addEventListener("click", () => {
+  window.location.href = "/SiteReferencia/paginas/bestofyou.html";
+});
 
-document.getElementById("everlong").addEventListener("click", () => {
-    window.location.href = "paginas/everlong.html"
-})
+document.getElementById("everlong")?.addEventListener("click", () => {
+  window.location.href = "/SiteReferencia/paginas/everlong.html";
+});
 
-document.getElementById("learntofly").addEventListener("click", () => {
-    window.location.href = "/SiteReferencia/paginas/learntofly.html"
-})
+document.getElementById("learntofly")?.addEventListener("click", () => {
+  window.location.href = "/SiteReferencia/paginas/learntofly.html";
+});
 
-document.getElementById("myhero").addEventListener("click", () => {
-    window.location.href = "/SiteReferencia/paginas/myhero.html"
-})
+document.getElementById("myhero")?.addEventListener("click", () => {
+  window.location.href = "/SiteReferencia/paginas/myhero.html";
+});
 
-document.getElementById("timeslikethese").addEventListener("click", () => {
-    window.location.href = "/SiteReferencia/paginas/timeslikethese.html"
-})
+document.getElementById("timeslikethese")?.addEventListener("click", () => {
+  window.location.href = "/SiteReferencia/paginas/timeslikethese.html";
+});
+
 
 document.getElementById("bruno").addEventListener("click", () => {
     window.location.href = "https://www.linkedin.com/in/bruno-henrique-oliveira-dos-santos-112187131/"
