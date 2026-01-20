@@ -10,23 +10,23 @@ document.getElementById("thepretender").addEventListener("click", () => {
 })
 
 document.getElementById("bestofyou").addEventListener("click", () => {
-    window.location.href = "../paginas/bestofyou.html"
+    window.location.href = "/SiteReferencia/paginas/bestofyou.html"
 })
 
 document.getElementById("everlong").addEventListener("click", () => {
-    window.location.href = "/foofighters/paginas/everlong.html"
+    window.location.href = "/SiteReferencia/paginas/everlong.html"
 })
 
 document.getElementById("learntofly").addEventListener("click", () => {
-    window.location.href = "../paginas/learntofly.html"
+    window.location.href = "/SiteReferencia/paginas/learntofly.html"
 })
 
 document.getElementById("myhero").addEventListener("click", () => {
-    window.location.href = "../paginas/myhero.html"
+    window.location.href = "/SiteReferencia/paginas/myhero.html"
 })
 
 document.getElementById("timeslikethese").addEventListener("click", () => {
-    window.location.href = "paginas/timeslikethese.html"
+    window.location.href = "/SiteReferencia/timeslikethese.html"
 })
 
 document.getElementById("bruno").addEventListener("click", () => {
