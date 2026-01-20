@@ -14,7 +14,7 @@ document.getElementById("bestofyou").addEventListener("click", () => {
 })
 
 document.getElementById("everlong").addEventListener("click", () => {
-    window.location.href = "../paginas/everlong.html"
+    window.location.href = "/foofighters/paginas/everlong.html"
 })
 
 document.getElementById("learntofly").addEventListener("click", () => {
