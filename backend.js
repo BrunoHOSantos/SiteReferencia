@@ -14,7 +14,7 @@ document.getElementById("bestofyou").addEventListener("click", () => {
 })
 
 document.getElementById("everlong").addEventListener("click", () => {
-    window.location.href = "/SiteReferencia/paginas/everlong.html"
+    window.location.href = "paginas/everlong.html"
 })
 
 document.getElementById("learntofly").addEventListener("click", () => {
@@ -26,7 +26,7 @@ document.getElementById("myhero").addEventListener("click", () => {
 })
 
 document.getElementById("timeslikethese").addEventListener("click", () => {
-    window.location.href = "/SiteReferencia/timeslikethese.html"
+    window.location.href = "/SiteReferencia/paginas/timeslikethese.html"
 })
 
 document.getElementById("bruno").addEventListener("click", () => {
