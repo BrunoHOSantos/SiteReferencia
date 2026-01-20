@@ -6,7 +6,7 @@ document.getElementById("toggleTheme").addEventListener('click', function() {
 });
 
 document.getElementById("thepretender").addEventListener("click", () => {
-    window.location.href = "../paginas/thepretender.html"
+    window.location.href = "/SiteReferencia/paginas/thepretender.html"
 })
 
 document.getElementById("bestofyou").addEventListener("click", () => {
