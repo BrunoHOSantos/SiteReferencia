@@ -5,28 +5,32 @@ document.getElementById("toggleTheme").addEventListener('click', function() {
     document.documentElement.classList.toggle('dark')
 });
 
-document.getElementById("thepretender")?.addEventListener("click", () => {
-  window.location.href = "/SiteReferencia/paginas/thepretender.html";
-});
+document.addEventListener("DOMContentLoaded", () => {
 
-document.getElementById("bestofyou")?.addEventListener("click", () => {
-  window.location.href = "/SiteReferencia/paginas/bestofyou.html";
-});
+  document.getElementById("thepretender")?.addEventListener("click", () => {
+    window.location.href = "/SiteReferencia/paginas/thepretender.html";
+  });
 
-document.getElementById("everlong")?.addEventListener("click", () => {
-  window.location.href = "/SiteReferencia/paginas/everlong.html";
-});
+  document.getElementById("bestofyou")?.addEventListener("click", () => {
+    window.location.href = "/SiteReferencia/paginas/bestofyou.html";
+  });
 
-document.getElementById("learntofly")?.addEventListener("click", () => {
-  window.location.href = "/SiteReferencia/paginas/learntofly.html";
-});
+  document.getElementById("everlong")?.addEventListener("click", () => {
+    window.location.href = "/SiteReferencia/paginas/everlong.html";
+  });
 
-document.getElementById("myhero")?.addEventListener("click", () => {
-  window.location.href = "/SiteReferencia/paginas/myhero.html";
-});
+  document.getElementById("learntofly")?.addEventListener("click", () => {
+    window.location.href = "/SiteReferencia/paginas/learntofly.html";
+  });
 
-document.getElementById("timeslikethese")?.addEventListener("click", () => {
-  window.location.href = "/SiteReferencia/paginas/timeslikethese.html";
+  document.getElementById("myhero")?.addEventListener("click", () => {
+    window.location.href = "/SiteReferencia/paginas/myhero.html";
+  });
+
+  document.getElementById("timeslikethese")?.addEventListener("click", () => {
+    window.location.href = "/SiteReferencia/paginas/timeslikethese.html";
+  });
+
 });
 
 
