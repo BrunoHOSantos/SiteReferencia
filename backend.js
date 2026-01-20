@@ -26,7 +26,7 @@ document.getElementById("myhero").addEventListener("click", () => {
 })
 
 document.getElementById("timeslikethese").addEventListener("click", () => {
-    window.location.href = "./paginas/timeslikethese.html"
+    window.location.href = "paginas/timeslikethese.html"
 })
 
 document.getElementById("bruno").addEventListener("click", () => {
