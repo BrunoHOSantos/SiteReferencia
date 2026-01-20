@@ -1,11 +1,13 @@
 localStorage.setItem('theme', 'dark');
 
 
-document.getElementById("toggleTheme").addEventListener('click', function() {
-    document.documentElement.classList.toggle('dark')
-});
+
 
 document.addEventListener("DOMContentLoaded", () => {
+
+    document.getElementById("toggleTheme").addEventListener('click', function() {
+    document.documentElement.classList.toggle('dark')
+});
 
   document.getElementById("thepretender")?.addEventListener("click", () => {
     window.location.href = "/SiteReferencia/paginas/thepretender.html";
