@@ -23,9 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = "/SiteReferencia/paginas/learntofly.html";
   });
 
-  document.getElementById("myhero")?.addEventListener("click", () => {
-    window.location.href = "/SiteReferencia/paginas/myhero.html";
-  });
+  document.getElementById("myheroCard")?.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.location.href = "/SiteReferencia/paginas/myhero.html";
+});
+
 
   document.getElementById("timeslikethese")?.addEventListener("click", () => {
     window.location.href = "/SiteReferencia/paginas/timeslikethese.html";
