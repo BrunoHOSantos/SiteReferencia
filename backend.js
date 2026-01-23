@@ -1,8 +1,6 @@
 localStorage.setItem('theme', 'dark');
 
 
-
-
 document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("toggleTheme").addEventListener('click', function() {
