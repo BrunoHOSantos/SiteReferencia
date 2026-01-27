@@ -44,6 +44,25 @@
     margin-left: 115px;
 }
 @media (max-width: 768px) {
+    
+#i1{
+    width: 100px;
+    height: 110px;
+}
+#i2{
+    width: 75px;
+    height: 110px;
+}
+#i3{
+    width: 100px;
+    height: 115px;
+}
+#i4{
+    margin-top: 15px;
+    width: 100px;
+    height: 95px;
+}
+    
     #PrimeiraFrase3{
     margin-top: 60px;
     text-align: center;
@@ -56,11 +75,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
+    gap: 26px;
     padding: 16px;
-    margin-top: 90px;
-    margin-left: 90px;
- }
+    margin-top: 50px;
+    margin-left: 50px;
+}
 
 #explicacao1{
     font-size: 13pt;
@@ -69,5 +88,53 @@
     margin-left: 90px;
     white-space: normal;
  }
+
+}
+
+@media(max-width : 1024px){
+  #primeiraFrase3{
+    margin-top: 60px;
+    margin-left: 70px;
+    text-align: center;
+    font-family: "SpaceGrotesk";
+    font-size: 30pt;
+}
+
+.imagens1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+    padding: 16px;
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+
+#i1{
+    width: 100px;
+    height: 110px;
+}
+#i2{
+    width: 75px;
+    height: 110px;
+}
+#i3{
+    width: 100px;
+    height: 115px;
+}
+#i4{
+    margin-top: 15px;
+    width: 100px;
+    height: 95px;
+}
+
+
+#explicacao1{
+    font-size: 15pt;
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 20px;
+}
 
 }
